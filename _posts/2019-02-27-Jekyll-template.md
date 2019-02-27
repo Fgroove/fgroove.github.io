@@ -2,8 +2,8 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2019-02-27 19:55:01 +0800
-categories: template
-tag: jekyll
+categories: Template
+tag: Jekyll
 ---
 
 
