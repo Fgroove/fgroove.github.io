@@ -12,6 +12,8 @@ tag: Template
 
 First Post!
 # 模版
----------
-Thanks,Jekyll!
+
 Blogs for ideas, notes or essay!
+
+
+Thanks,Jekyll!
