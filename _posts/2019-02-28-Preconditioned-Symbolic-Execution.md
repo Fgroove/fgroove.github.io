@@ -10,9 +10,9 @@ tag: 反沙箱对抗技术
 {:toc}
 
 
-# 2019-02-28-Preconditioned Symbolic Execution
+# 2019-02-28-Weakest Preconditions
 
-## Traditional Weakest Preconditions
+## Traditional WP
 
 *I. Jager and D. Brumley. Efficient directionless weakest preconditions. Technical Report CMU-CyLab-10-002, Carnegie Mellon University, CyLab, Feb. 2010.*
 
@@ -20,7 +20,9 @@ Program `P`和Post-condition `Q`的Weakest Precondition `wp`是布尔谓词，�
 
 Weakest preconditions是后向，自动，语法驱动的计算。因此，给定GCL程序，我们可以自动计算wp。给定语句i处的后置条件Q，我们计算出执行i的前提条件，以便满足Q.
 
-### 举个例子
+
+
+## 举个例子
 
 假设我们有一种语言，其中所有值和变量都是32位无符号整数，以及下面的程序，其中输入x：
 
