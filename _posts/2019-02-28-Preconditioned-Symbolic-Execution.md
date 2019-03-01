@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Preconditioned Symbolic Execution"
+title:  "Weakest Preconditions"
 date:   2019-02-28 09:00:01 +0800
 categories: 基于动态的恶意软件分析
 tag: 反沙箱对抗技术
