@@ -9,7 +9,7 @@ tag: 每日英语听力
 {:toc}
 
 
-# 2019-03-01-derision
+# 2019-03-02-derision
 
 *The greatest Kindness will not bind the ungrateful.*
 
@@ -58,3 +58,140 @@ In the center of your heart and my heart there is a wireless station;
 so long as it receives messages of beauty, hope courage and power from man and the Infinite, so long as you are young.
 
 When the aerials are down, and your spirit is covered with snows of cynicism and the ice of pessimism, then you've grown old, even at twenty, but so long as your aerials are up, to catch the waves of optimism, there is hope you may die young at eighty.
+
+## Words
+
+---
+
+lament
+
+* The old woman began to lament the death of her husband.
+
+enclosure
+
+* Animals can graze safely in the enclosure.
+
+silt
+
+* The harbor tends to become bolcked up by silt deposited by the river.
+
+glide
+
+* The birds glide over the open ocean.
+
+solemn
+
+* They gave a salute with a solemn expression.
+
+vertebrate
+
+* All fish are vertebrate because they all have backbones.
+
+counsel
+
+* If the police arrest you, you should find a legal counsel.
+
+dissenting
+
+*  You all agree, so I guess I'm the only dissenting voice.
+
+recital
+
+* I went to watch a famous pianist's recital last night.
+
+syllable
+
+* 'Marketing' has three syllables.
+
+swampy
+
+* The land is swampy, with many small pools of water.
+
+poll
+
+* Let's go to the polls to vote for Obama.
+
+morale
+
+* Employee morale is high. Everybody enjoys working here.
+
+palette
+
+* I have all the major colors on my palette.
+
+patron
+
+* He is one of the restaurant's oldest patrons; he has been eating there for years.
+
+barter
+
+* He bartered the fruits for the rabbit.
+
+coax
+
+* My big sister's always trying to coax me into helping her.
+
+moat
+
+* In ancient times, people built moats to protect castles from attack.
+
+renaissance
+
+* Shakespeare was a representative writer of the Renaissance.
+
+Treasure trove
+
+* This sunken treasure trove belongs to us-it's our treasure trove.
+
+arid
+
+* The lake turned to an arid place.
+
+chronic
+
+* I suffer from chronic pain.
+
+oversight
+
+* A defective teddy bear left the factory because of the worker's oversight.
+
+distinctly
+
+* Of all the British dishes, fish and chips stand out distinctly.
+
+prodigious
+
+* The forest is full of prodigious trees.
+
+unscrupulous
+
+* The bussinessman uses unscrupulous methods in order to win the competition.
+
+Consumer goods 日常生活用品
+
+* The customers buy many consumer goods from the supermarket.
+
+slander
+
+* The actress was slandered by the people for her social media post.
+
+unevenly
+
+* I have to drive slowly because this road is very unevenly surfaced.
+
+lease
+
+* The agent leased this apartment to the young couple.
+
+anarchist
+
+* The anarchist is demanding the dissolution of the government.
+
+atrophy
+
+* Alzheimer can result in brain atrophy.
+
+emancipation
+
+* The emancipation of slaves ensured the civil rights of blacks.
+
