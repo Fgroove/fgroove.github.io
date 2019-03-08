@@ -14,6 +14,12 @@ tag: 反沙箱对抗技术
 
 ---
 
+## 308更新
+
+之前Ubuntu出现的OOM Abort问题是因为用的是ConAFL（检测并发程序漏洞的改版AFL），导致速度低下，Out of Memory。
+
+重新编译AFL之后可正常。ConAFL需要的资源明显多于AFL，CPU单项需求约是AFL的5倍以上。速度却差了一个量级，对libtiff测试来讲。
+
 ## 序言
 
 AFL模糊测试在OS X上性能有些低下，因为处理`fork()`调用原因。
