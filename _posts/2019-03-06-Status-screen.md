@@ -270,6 +270,16 @@ Note: 如果工具在启动后几分钟内没有找到新路径，
 
 最重要的是，可以找到一个名为`plot_data`的条目，其中包含大多数这些字段的可绘制历史记录。 如果安装了`gnuplot`，可以使用附带的`afl-plot`工具将其转换为一个很好的**进度报告**。**制图工具。**
 
+## alf-plot
+
+简单有效的绘图工具，生成图片和`index.html`文件。
+
+```shell
+afl-plot afl_state_dir graph_output_dir
+```
+
+`afl_state_dir`一般是`afl-fuzz`的输出目录，即包含`plot_data`的文件夹。
+
 
 
 ## 参考
