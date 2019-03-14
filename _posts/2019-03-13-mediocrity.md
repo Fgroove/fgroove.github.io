@@ -12,3 +12,6 @@ tag: Words
 
 # mediocrity
 ---
+Every generation laughs at the old fashions, but follows religiously the new.
+
+## words
