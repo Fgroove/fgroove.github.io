@@ -14,7 +14,7 @@ tag: Tools
 ## Google Now(谷歌即时桌面)
 本来肯定支持谷歌的产品，和适合我的风格，干净简单。也是Samsung Galaxy S10和Huawei Mate X采用的。
 
-但是GoogleNow不支持Honor Play，无奈。
+但是GoogleNow不支持Honor Play，无奈。Google Now是17年开始就不支持主流机型了。
 
 ## 参考
 [Best Android Launcher 2019: Which should you download?](https://www.trustedreviews.com/best/best-android-launcher-3504311)
