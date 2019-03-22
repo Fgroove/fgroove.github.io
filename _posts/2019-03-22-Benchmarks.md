@@ -54,12 +54,23 @@ RealBench是实际CPU基准测试的另一个例子。 它使用了四个测试�
 您可以将您的发现上传到RealBench网站，以比较您与其他基准硬件配置的位置。 可能RealBench的最佳方面是它模拟常规课程负载; 没有压力测试将CPU推到最大，以便衡量其性能。 当然，压力测试也是RealBench中的一项可用功能。
 
 ## Microsoft Windows benchmarks
-BAPCo: MobileMark, SYSmark, WebMark
-Futuremark: 3DMark, PCMark
-PiFast
-SuperPrime
-Super PI
-UserBenchmark
-Whetstone
-Windows System Assessment Tool, included with Windows Vista and later releases, providing an index for consumers to rate their systems easily
-Worldbench (discontinued)
+### BAPCo: MobileMark, SYSmark, WebMark
+---
+**收费**
+
+BAPCo，Business Applications Performance Corporation，是一个非营利性联盟（成立于1991年），其章程旨在为基于流行软件应用程序和操作系统的个人计算机开发和分发一套客观的性能基准。
+
+BAPCo目前的成员包括宏碁，ARCIntuition，ChinaByte，CNET，仁宝电子，戴尔，惠普，日立，英特尔，LC未来中心，联想，微软，西部数据，纬创，三星，索尼，东芝，佐尔。
+
+2011年6月21日，AMD公司宣布，在未能通过SYSmark 2012基准测试后，它已从BAPCo组织辞职[1]。 Nvidia和VIA也在几周后离开了。
+
+### Futuremark: 3DMark, PCMark
+
+
+### PiFast
+### SuperPrime
+### Super PI
+### UserBenchmark
+### Whetstone
+### Windows System Assessment Tool, included with Windows Vista and later releases, providing an index for consumers to rate their systems easily
+### Worldbench (discontinued)
