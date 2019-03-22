@@ -33,12 +33,12 @@ CINEBENCH Info:
 CINEBENCH Version: 15.037 RC83328demo 64 Bit
 ```
 
-QEMU(no kvm)的CINEBENCH SCORES: 158pts
+QEMU(no kvm)的CINEBENCH SCORES: 5pts
 
 ```shell
 Your System: 
-Rendering: 158pts
-Rendering (Single Core): 158pts
+Rendering: 5pts
+Rendering (Single Core): 5pts
 Multi Processor Ratio: 1.00x
 1 Core, 1 Thread @ 2.81 GHz
 QEMU Virtual CPU version 2.5+
@@ -52,3 +52,14 @@ CINEBENCH Version: 15.037 RC83328demo 64 Bit
 RealBench是实际CPU基准测试的另一个例子。 它使用了四个测试，都涉及一些容量的渲染：图像编辑，H.264视频编码，OpenCL和重型多任务处理。
 
 您可以将您的发现上传到RealBench网站，以比较您与其他基准硬件配置的位置。 可能RealBench的最佳方面是它模拟常规课程负载; 没有压力测试将CPU推到最大，以便衡量其性能。 当然，压力测试也是RealBench中的一项可用功能。
+
+## Microsoft Windows benchmarks
+BAPCo: MobileMark, SYSmark, WebMark
+Futuremark: 3DMark, PCMark
+PiFast
+SuperPrime
+Super PI
+UserBenchmark
+Whetstone
+Windows System Assessment Tool, included with Windows Vista and later releases, providing an index for consumers to rate their systems easily
+Worldbench (discontinued)
