@@ -67,7 +67,7 @@ BAPCo目前的成员包括宏碁，ARCIntuition，ChinaByte，CNET，仁宝电�
 2011年6月21日，AMD公司宣布，在未能通过SYSmark 2012基准测试后，它已从BAPCo组织辞职[1]。 Nvidia和VIA也在几周后离开了。
 
 ### Futuremark: 3DMark, PCMark
-PCMark: [Result](https://www.3dmark.com/pcm7/1173102#)
+#### PCMark: [Result](https://www.3dmark.com/pcm7/1173102#)
 
 ```shell
 PCMark score395.0
@@ -143,13 +143,15 @@ System storage - Windows Defender iteration 2
 2.32762 MB/s
 System storage - Windows Defender iteration 3
 5.20043 MB/s
-
 ```
 
 ```shell
 SETTINGS
 Default settings used Yes Repeat count3
 ```
+
+#### 3DMark
+破解版 失败 收费才是正道
 
 ### PiFast
 ### SuperPrime
