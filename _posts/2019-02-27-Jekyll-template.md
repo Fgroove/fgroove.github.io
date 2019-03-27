@@ -33,3 +33,5 @@ tag:
 
 ```
 
+## Jekyll on Window
+[Jekyll on Windows](https://jekyllrb.com/docs/installation/windows/)
