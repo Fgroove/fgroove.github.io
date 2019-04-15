@@ -21,6 +21,31 @@ tag: 系统评估
 
 4.在`__ept_handle_violation`里面。首先判断当前的进程是不是恶意进程（通过eprocess判断，我已经写好了），然后看虚拟地址在不在你的链表之中，如果在的话说明是恶意程序的exe，修改权限为ACCESS_MALWARE就行了
 
+## Trouble
+
+安装完PCMark7/SPEC CPU2006后，加载驱动卡死；
+
+进一步判断和更改MalwareName关系,没有关系。
+
+---
+
+```plain
+重启多次之后,磁盘空间变小
+镜像原始剩余可用空间：9.18G 
+重启后可用空间：7.50GB
+CPU使用率50-100%，内存90% 什么应用都没打开
+```
+
+```plain
+framebuf 蓝屏dump一次多了4G内存
+
+加载驱动之后，启动PCMark7没有tcg和kvm切换，这种情况下PCMark7也跑不完
+```
+
+
+
+
+
 ## SPEC CPU2006
 
 ## PCMark 7
