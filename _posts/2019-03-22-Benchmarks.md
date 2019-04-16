@@ -53,7 +53,11 @@ RealBench是实际CPU基准测试的另一个例子。 它使用了四个测试�
 
 您可以将您的发现上传到RealBench网站，以比较您与其他基准硬件配置的位置。 可能RealBench的最佳方面是它模拟常规课程负载; 没有压力测试将CPU推到最大，以便衡量其性能。 当然，压力测试也是RealBench中的一项可用功能。
 
+### *注*
+
 RealBench无法在原生TCG模式下运行。
+
+RealBench起两个同名exe，一个图形界面，一个log output界面
 
 ## Microsoft Windows benchmarks
 ### BAPCo: MobileMark, SYSmark, WebMark
@@ -75,7 +79,10 @@ SETTINGS
 Default settings used Yes Repeat count3
 ```
 
+多exe文件
+
 #### 3DMark
+
 破解版 失败 收费才是正道
 
 ### PiFast
@@ -83,6 +90,9 @@ Default settings used Yes Repeat count3
 ### SuperPrime
 ### Super PI
 ### UserBenchmark
+
+运行期间会启动多个exe文件，几个benchmark基本就起几个exe
+
 ### Whetstone
 ### Windows System Assessment Tool, included with Windows Vista and later releases, providing an index for consumers to rate their systems easily
 ### Worldbench (discontinued)
