@@ -47,7 +47,15 @@ CINEBENCH Info:
 CINEBENCH Version: 15.037 RC83328demo 64 Bit
 ```
 
+### KVM-TCG
+
+R20可以正常跳转，但是启动不了；
+
+R15可能名字`CINEBENCH Windows 64 Bit.exe`包含空格，无法处理；改名监控成功后，有切换但是无法启动。
+
 ## RealBench
+
+---
 
 RealBench是实际CPU基准测试的另一个例子。 它使用了四个测试，都涉及一些容量的渲染：图像编辑，H.264视频编码，OpenCL和重型多任务处理。
 
@@ -88,11 +96,56 @@ Default settings used Yes Repeat count3
 ### PiFast
 手动输入参数
 ### SuperPrime
+
+韩国的，找不到
+
 ### Super PI
 ### UserBenchmark
 
-运行期间会启动多个exe文件，几个benchmark基本就起几个exe
+[KVM-TCG](https://www.userbenchmark.com/UserRun/16326749)
+
+
 
 ### Whetstone
 ### Windows System Assessment Tool, included with Windows Vista and later releases, providing an index for consumers to rate their systems easily
 ### Worldbench (discontinued)
+
+## 其他
+
+### 鲁大师
+
+娱乐大师，主要是其跑分浮动大，可比性不强，不能真实反映性能指标。
+
+主要是集成了几个功能比较方便：第一查看硬件，第二安装驱动，第三压力测试，第四跑分。虽然都不算一流，单是结合到一起就是个方便。
+
+### 国际象棋大师
+
+### WINRAR
+
+### CPU-Z
+
+### VMmark
+
+### Geekbench
+
+### Thread Bench 2010
+
+[Thread Bench](https://astro.temple.edu/~drhoads/subsites/cpu/index.html)
+
+| Benchmark     | 进程个数 | 备注                              |
+| ------------- | -------- | --------------------------------- |
+| SPEC CPU2006  | 多个     | 单个benchmark跑的时候也有多个进程 |
+| PCMark7       | 多个     |                                   |
+| UserBenchMark | 多个     | 应该是每个单项都有exe             |
+| RealBench     | 多个     |                                   |
+| Cinebench     | 一个     | 正常切换，就是打不开程序          |
+| ThreadBench   | 一个     | 无法检测到进程(名称有错?)         |
+| SuperPI       | 一个     | 正常测试                          |
+|               |          |                                   |
+
+## demo
+
+驱动监控程序/进程名长的话无法loadImage（PCMark7，SuperPI），过长无法检测到进程创建（ThreadBench）。
+
+改程序名，长度为4都成功了。或者是和大小写有关。
+
