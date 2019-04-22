@@ -9,7 +9,7 @@ tag: 反沙箱对抗技术
 {:toc}
 
 
-# Automatically Identifying Trigger-based Behavior in Malware(Botnet'08)
+# Automatically Identifying Trigger-based Behavior in Malware(ADIS'08)
 
 ---
 
