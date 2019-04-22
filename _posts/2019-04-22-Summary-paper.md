@@ -11,9 +11,19 @@ tag: 反沙箱对抗技术
 
 # 沙箱逃逸论文
 
+## READ
+
+[ISoLA'18] Tutorial: An Overview of Malware Detection and Evasion Techniques
+
+[SP'16] (State of) The Art of War: Offensive Techniques in Binary Analysis
+
+## REFER
+
 ---
 
-[SP17] Spotless Sandboxes: Evading Malware Analysis Systems Using Wear-and-Tear Artifacts
+[SP'17] Spotless Sandboxes: Evading Malware Analysis Systems Using Wear-and-Tear Artifacts
+
+创建有磨损的系统，对付逃避。
 
 [IEICE'17] SandVeil: A Tool for Improving Sandbox Resilience to Evasion
 
