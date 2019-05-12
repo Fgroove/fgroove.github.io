@@ -2,8 +2,8 @@
 layout: post
 title:  "IPT for enhanced analysis"
 date:   2019-05-08 8:55:01 +0800
-categories: "QEMU-KVM系统"
-tag: idea
+categories: "双视图+IPT"
+tag: VMray
 ---
 * content
 {:toc}
@@ -12,7 +12,7 @@ tag: idea
 # Using IPT for enhanced analysis
 
 ---
-[CyberSecurity blog](https://www.vmray.com/cyber-security-blog/back-to-the-past-using-intels-processor-trace-for-enhanced-analysis/)
+[blog](https://www.vmray.com/cyber-security-blog/back-to-the-past-using-intels-processor-trace-for-enhanced-analysis/)
 
 这篇博文概述了英特尔新的处理器功能PT，并描述了它如何应用于增强第三代威胁检测技术。 
 
@@ -53,7 +53,7 @@ VMRay Analyzer是基于独特的`hypervisor-based`的第三代威胁检测技术
 
 但是，恶意软件可能依赖于某些环境条件，并且仅在分析期间可能未提供的某些情况下执行相关代码路径。例如，它可能仅在星期三或东欧的机器上执行。
 
-PT可用于以非常有效的方式识别这种休眠功能：通过将记录的跟踪信息与内存中的（解包和反混淆）二进制文件的静态反汇编相结合，我们能够重建精确的控制流。使用该数据，我们找到代码的每个未执行部分并识别相应的条件检查。通过利用我们的符号执行引擎，我们能够确定之前调用的相应API的相关输出值，以便将控制流导航到相关代码。有了这些信息，我们重新执行示例，并从虚拟机hypervisor补丁中获取相关的API结果，以强制执行休眠函数。
+PT可用于以非常有效的方式识别这种休眠功能：通过将记录的跟踪信息与内存中的（解包和反混淆）二进制文件的静态反汇编相结合，我们能够重建精确的控制流。使用该数据，我们找到代码的每个未执行部分并识别相应的条件检查。通过利用我们的**符号执行引擎**，我们能够确定之前调用的相应API的相关输出值，以便将控制流导航到相关代码。有了这些信息，我们重新执行示例，并从虚拟机hypervisor补丁中获取相关的API结果，以强制执行休眠函数。
 
 ### 使用案例：识别和重建代码重用攻击
 
