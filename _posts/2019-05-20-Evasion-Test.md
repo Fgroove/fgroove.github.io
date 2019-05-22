@@ -2,8 +2,8 @@
 layout: post
 title:  "Evasion Test"
 date:   2019-05-20 09:05:01 +0800
-categories: 基于动态的恶意软件分析
-tag: 逃逸检测
+categories: 沙箱逃逸
+tag: 实例
 
 ---
 * content
