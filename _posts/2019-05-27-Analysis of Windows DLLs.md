@@ -12,8 +12,6 @@ tag: S2E
 
 # Analysis of Windows DLLs
 
----
-
 利用S2E分析DLL文件。作为示例，分析`kernel32.dll`中的[Beep](https://docs.microsoft.com/en-us/windows/desktop/api/utilapiset/nf-utilapiset-beep)函数。
 
 ## 准备测试环境
