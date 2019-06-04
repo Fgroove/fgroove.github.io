@@ -16,9 +16,13 @@ tag: "research proposal"
 
 ## 研究背景
 
-反沙箱技术、沙箱逃逸技术overview
+### 沙箱分析
 
-基于trigger的逃逸技术
+ESET2015年公开的数据，其实验室每天会收到约250，000个新恶意程序样本进行分析；
+
+没有自动化分析系统显然无法完成，沙箱分析是最典型的自动化分析。
+
+常见在线（云）沙箱分析：DeepViz，Cuckoo（Malwr宕机），Payload Security,已逝去的Anubis
 
 ## 研究现状
 
