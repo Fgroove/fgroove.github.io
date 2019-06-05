@@ -2,8 +2,8 @@
 layout: post
 title:   "research proposal"
 date:   2019-05-29 13:55:01 +0800
-categories: 杂记
-tag: "research proposal"
+categories: "research proposal"
+tag: "技术思路"
 
 ---
 * content
