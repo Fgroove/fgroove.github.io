@@ -12,16 +12,14 @@ tag: 实例
 
 # Evasion Test
 
----
-
-## Evasive malware in RealWord
+## Evasive malware in Real Word
 
 ### Shamoon
 
-* Shamoon: 时间触发，2012,2016,2017，节日期间攻击，沙特阿拉伯等中东地区
-* StoneDrill：Shamoon 2.0，欧洲
-
-* 恶意负载：泄露传播机密文件并抹除，破坏boot，使电脑不可用
+* Shamoon+wiper: 时间触发，2012，节日期间攻击，中东的两个目标
+* Shamoon V2+StoneDrill(wiper): 2016-2017,沙特阿拉伯的多个目标
+* Shamoon V3+Filerase(wiper): 2018, 利用欧洲的供应商对中东企业发起了供应链攻击
+* 恶意负载wiper：泄露传播机密文件并抹除，破坏boot，使电脑不可用
 
 ### NetTraveler (aka TravNet) 和 PlugX RAT
 
