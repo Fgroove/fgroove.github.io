@@ -16,7 +16,7 @@ tag: "技术思路"
 
 # VMRay沙箱逃逸
 
-## Part 1
+## [Part 1](https://www.vmray.com/cyber-security-blog/sandbox-evasion-techniques-part-1/)
 
 这篇文章是当前恶意软件使用的沙箱逃逸技术系列的第一部分。在入门之后，将在后续文章中深入探讨三种主要类别逃逸技术的详细信息。
 
@@ -60,7 +60,7 @@ tag: "技术思路"
 
 在这个[例子](http://www.vmray.com/analyses/663313/report/vti_by_category.html)中，我们看到一个分析，其中除了试图检测VM环境之外，恶意软件还参与了“持久性”，安装启动脚本和应用程序以便在重启时生存。
 
-## Part 2
+## [Part 2](https://www.vmray.com/cyber-security-blog/sandbox-evasion-techniques-part-2/)
 
 之前的文章介绍了沙箱逃逸技术分为三类：
 
@@ -159,7 +159,7 @@ VMRay基于无代理管理程序的方法可确保恶意软件的攻击面最小
 
 
 
-## Part 3
+## [Part 3](https://www.vmray.com/cyber-security-blog/sandbox-evasion-techniques-part-3/)
 
 老规矩，先放分类
 
@@ -221,7 +221,7 @@ VMRay基于无代理管理程序的方法可确保恶意软件的攻击面最小
 
 VMRay的无代理管理程序方法适用于所有这些方案。当与使用真实VM映像作为目标分析机器一起使用时，VMRay Analyzer将提供对恶意软件活动的完全可见性，无论恶意软件是否试图模糊其意图。
 
-## Part 4
+## [Part 4](https://www.vmray.com/cyber-security-blog/sandbox-evasion-techniques-part-4/)
 
 第三类
 
