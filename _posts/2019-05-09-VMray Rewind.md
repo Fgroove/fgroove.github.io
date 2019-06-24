@@ -11,7 +11,6 @@ tag: VMray
 
 # Nowhere to Hide: Analyzing Environment-Sensitive Malware with Rewind
 
----
 [blog](https://www.vmray.com/cyber-security-blog/analyzing-environment-sensitive-malware/)
 
 ## Introducing VMRay Rewind
