@@ -27,6 +27,8 @@ tag: 实例
 
 * 一旦被感染，ZeroT将与C&C链接，并上传感染的系统信息，然后下载多样化的PlugX RAT(remote access trojan)
 
+### Dyre
+
 
 
 ## 测试框架
