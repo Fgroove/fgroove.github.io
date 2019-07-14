@@ -26,3 +26,7 @@ tag: "virus"
 
 下载样本需要注册并提交自己的三篇技术博客。
 
+## [theZoo](<https://github.com/ytisf/theZoo/tree/master/malwares/Binaries>)
+
+还是github的项目靠谱，其余都是棒槌（还不会用—_—）。
+
