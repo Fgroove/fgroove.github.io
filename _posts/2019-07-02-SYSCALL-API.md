@@ -14,6 +14,81 @@ tag: "技术思路"
 
 # SYSCALL & API
 
+## 常见API
+
+### 时间系列
+
+#### 结构体
+
+1.`FILETIME`包含一个64位值，表示自1601年1月1日（UTC）以来100纳秒间隔的数量。
+
+```c++
+typedef struct _FILETIME {
+  DWORD dwLowDateTime;
+  DWORD dwHighDateTime;
+} FILETIME, *PFILETIME, *LPFILETIME;
+```
+
+2.`SYSTEMTIME`,熟悉的日期（年月日）和时间（时分秒）。
+
+```C++
+typedef struct _SYSTEMTIME {
+  WORD wYear;
+  WORD wMonth;
+  WORD wDayOfWeek;
+  WORD wDay;
+  WORD wHour;
+  WORD wMinute;
+  WORD wSecond;
+  WORD wMilliseconds;
+} SYSTEMTIME, *PSYSTEMTIME, *LPSYSTEMTIME;
+```
+
+相关的6个函数 `GetSystemTime`、 `GetLocalTime`、 `SystemTimeToFileTime`、 `FileTimeToSystemTime`、 `LocalFileTimeToFileTime`、 `FileTimeToLocalFileTime`。
+
+### API
+
+ `GetSystemTime`获取当前UTC时间。
+
+```C++
+void GetSystemTime(LPSYSTEMTIME lpSystemTime);
+```
+
+---
+
+`GetLocalTime`获取当地时间。
+
+```C++
+void GetLocalTime(LPSYSTEMTIME lpSystemTime);
+```
+
+---
+
+`GetSystemTimeAsFileTime`获取系统当前日期和时间。`lpSystemTimeAsFileTime`指向`FILETIME`的指针，接收当前系统日期和时间。`Kernel32.dll`。
+
+```c++
+void GetSystemTimeAsFileTime(
+  LPFILETIME lpSystemTimeAsFileTime
+);
+```
+
+---
+
+`SystemTimeToFileTime`,转换系统时间到文件时间格式。
+
+```C++
+BOOL SystemTimeToFileTime(
+  const SYSTEMTIME *lpSystemTime,
+  LPFILETIME       lpFileTime
+);
+```
+
+
+
+
+
+---
+
 系统调用：系统调用实际上是指底层的一个调用，就是**内核**提供的、功能十分强大的一系列的函数。这些系统调用是**在内核中实现的**。是操作系统为**用户态运行的进程和硬件设备（如CPU、磁盘、打印机等）进行交互**提供的一组接口，即就是设置在应用程序和硬件设备之间的一个接口层。可以说是操作系统留给用户程序的一个接口。
 
 API：win32API也就是MicrosoftWindows32位平台的应用程序编程接口。windows规定一切的应用程序优先级为3，为windows自己的为0（0最高，3最低）。**windows不允许应用程序直接访问硬件，但是会提供API函数让用户间接地访问**，这样就会**调用系统级API**。
