@@ -96,7 +96,20 @@ sudo apt-get install libgnutls28-dev libneon27-gnutls libcurl4-gnutls-dev
 sudo apt install libnl-3-dev libnl-route-3-dev
 ```
 
-### libvmi
+### [libvmi](https://www.cnblogs.com/ccxikka/p/9694888.html)
+
+专注于读写虚拟机内存的自省库，监视虚拟机底层的运行细节并将其还原，支持Xen和KVM；
+
+针对KVM虚拟化平台，libvmi对QEMU进行修改以提供虚拟机物理内存的读写接口，基于libvmi的自省程序通过本地Unix socket与QEMU通信，实现对特定物理地址内容的读写。
+
+以获取虚拟机某个GPA内容为例，简述在KVM虚拟化平台下使用libvmi自省的流程：
+
+1. `VMI Application`创建VMI实例，给出目标虚拟机名称及对应GPA，交由`libvmi`处理；
+2. `libvmi`初始化vmi实例，然后使用QMP向`qemu-kvm-patch`发送创建`Unix socket`的命令，用于和目标虚拟机所在的qemu进程进行通信；
+3. `qemu-kvm-patch`接收到QMP命令后，创建`Unix socket`，作为服务器端监听libvmi请求；
+4. `libvmi`向`socket server`发出连接请求，内存读写请求；
+5. `qemu-kvm-patch`接收来自`libvmi`的请求，调动qemu中相关函数进行自省操作，返回给`libvmi`；
+6. `libvmi`接收`qemu-kvm-patch`返回的数据结果，将其返回`VMI Application`，此次内省操作结束。
 
 ```shell
 ./autogen.sh
