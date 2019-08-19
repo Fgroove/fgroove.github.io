@@ -122,7 +122,7 @@ ldconfig
 exit
 ```
 
-事先没有安装好`libvirt`，`./configure`之后kvm后面显示不支持，确实`libvirt`。
+事先没有安装好`libvirt`，`./configure`之后kvm后面显示不支持，缺失`libvirt`。
 
 
 
