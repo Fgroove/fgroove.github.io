@@ -6,10 +6,12 @@ categories: "Job Hunting"
 tag: "algorithm"
 ---
 
-[TOC]
+* content
+{:toc}
 
 
-
+* content
+{:toc}
 
 
 

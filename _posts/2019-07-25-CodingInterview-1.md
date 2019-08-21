@@ -1,12 +1,16 @@
 ---
- Javalayout: post
+layout: post
 title:   "剑指offer:2面试基础知识"
 date:   2019-07-25 08:55:01 +0800
 categories: "Job Hunting"
 tag: "剑指offer"
 ---
 
-[TOC]
+* content
+{:toc}
+
+
+
 
 # 剑指offer: 2 面试需要的基础知识
 
