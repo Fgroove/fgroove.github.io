@@ -4,8 +4,6 @@ title:   "Selective Symbolic Execution"
 date:   2019-07-24 13:55:01 +0800
 categories: "path exploration"
 tag: "nitro"
-
-
 ---
 
 [TOC]
