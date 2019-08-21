@@ -6,8 +6,8 @@ categories: "path exploration"
 tag: "nitro"
 ---
 
-[TOC]
-
+* content
+{:toc}
 
 
 

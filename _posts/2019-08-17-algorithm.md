@@ -10,10 +10,6 @@ tag: "algorithm"
 {:toc}
 
 
-* content
-{:toc}
-
-
 
 
 
