@@ -28,3 +28,8 @@ tag: "groupMeeting"
 * 参考多，不好移植
 * 未配置网络，`linux 4.9.0`下没有自动生成`virbr0`,virsh文件未配置网络。
 
+`vmi_request_page_fault`python binding里面有，nitro/libvmi里面没有
+
+* 添加到libvmi
+* 回滚python binding
+
