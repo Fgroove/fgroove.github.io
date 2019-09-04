@@ -15,8 +15,6 @@ tag: "PT"
 
 # winDriver
 
-# WinDriver
-
 ## preparation
 
 VS 2017
@@ -70,7 +68,7 @@ Generate driver
 ```shell
 sc create name binPath= ".sys"
 
-bcdedit /set testsigning //无签名测试模式
+bcdedit /set testsigning on/off //无签名测试模式,重启生效
 
 sc start name
 ```
