@@ -61,3 +61,21 @@ $ make -j4
 $ sudo make install
 ```
 
+
+## libvirt
+
+```shell
+sudo apt install libvirt-bin libvirt-dev bridge-utils virt-manager virt-viewer
+```
+
+
+
+```shell
+virsh define setup.xml
+virsh list --all
+virsh start win7
+virsh shutdown win7
+gvncviewer 127.0.0.1:0
+virsh undefine win7
+```
+
