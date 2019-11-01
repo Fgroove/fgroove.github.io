@@ -1,9 +1,9 @@
 ---
 Javalayout: post
 title:   "双视图切换开发"
-date:   2019-10-23 08:55:01 +0800
-categories: "杂记"
-tag: "linux-emu"
+date:   2019-10-30 08:55:01 +0800
+categories: "HWProject"
+tag: "Intel PT"
 
 ---
 
@@ -17,7 +17,16 @@ tag: "linux-emu"
 
 ## 思路
 
+### 1.背景
 
+Intel处理器下，KVM利用VMX root和non-root模式来区分hypervisor和guest。
+
+* VMEntry：内核模式下，由KVM的VMLAUNCH指令触发，guest需要信息填充在CPU的VMCS。
+* VMExit：guest OS处理越权事件触发，比如访问硬件或中断，由硬件自动完成VMExit，exit reason等信息记录在VMCS，KVM据此采取下一步行动。
+
+### 2.问题
+
+VMeixt之后，驱动切换视图
 
 ## KVM开发
 
