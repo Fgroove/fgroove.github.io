@@ -39,7 +39,14 @@ nitro需要libvmi获取更多信息，libvmi的Python binding，因此涉及到g
 
 ## VM启动方式
 
-### Virsh
+### [Virsh](https://www.cnblogs.com/hukey/p/11246126.html)
+
+### 连接hypervisor
+
+`virsh connect [*hostname-or-URI*] [--readonly]`
+
+* `virsh connect qemu:///system`，作为root用户连入
+* `qemu:///session`,作为用户连入
 
 ### `qemu-system-x86_64`
 
@@ -63,12 +70,57 @@ pip3 install docopt==0.6.2
 
 ### 3.libvirt
 
-xml配置文件`tests/`下有模板。
+xml配置文件`tests/`下有模板。虚拟机名字要和`libvmi.conf`里面的一致。
 
 #### python binding
 
 ```shell
 sudo apt install python3-libvirt
+```
+
+### virsh创建虚拟机
+
+```shell
+virsh define win7x86.xml
+virsh start domain
+virsh reboot domain
+virsh shutdown domain
+gvncviewer 127.0.0.1:0
+```
+
+重点配置好xml文件就可以了。
+
+### 网络设置
+
+```shell
+sudo apt install bridge-utils -y
+```
+
+配置`/etc/network/interfaces`, `eno1`替换成网络接口
+
+```shell
+sudo vim /etc/network/interfaces
+
+auto lo eno1 br0
+iface lo inet loopback
+
+iface eno1 inet manual
+
+iface br0 inet dhcp #set this to static if required
+   bridge_ports eno1
+```
+
+`enp0s10`示意：
+
+```plain
+enp0s10:
+| | |
+v | |
+en| |   --> ethernet
+  v |
+  p0|   --> bus number (0)
+    v
+    s10 --> slot number (10)
 ```
 
 
@@ -104,6 +156,20 @@ make
 sudo ldconfig
 sudo make install
 ```
+
+* 配置`libvmi/etc/libvmi.conf`, 配置要监控的虚拟机名字
+
+```cfg
+win7x64 {
+    ostype      = "Windows";
+    win_tasks   = 0x188;
+    win_pdbase  = 0x28;
+    win_pid     = 0x180;
+    win_pname   = 0x2e0;
+}
+```
+
+
 
 #### `libvmi/python`
 
