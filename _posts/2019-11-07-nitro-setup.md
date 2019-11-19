@@ -65,12 +65,14 @@ ps -ef | grep qemu-system-x86_64
 ### 2. docopt
 
 ```shell
-pip3 install docopt==0.6.2
+pip install docopt==0.6.2
 ```
+
+**注意：**这里需要pip/pip2安装docopt，因为是rekall需要使用。包括后续依赖future，需要pip/pip2安装`future==0.16.0`。
 
 ### 3.libvirt
 
-xml配置文件`tests/`下有模板。虚拟机名字要和`libvmi.conf`里面的一致。
+xml配置文件`tests/`下有模板。虚拟机名字要和`nitro/libvmi.conf`里面的一致。
 
 #### python binding
 
@@ -157,7 +159,7 @@ sudo ldconfig
 sudo make install
 ```
 
-* 配置`libvmi/etc/libvmi.conf`, 配置要监控的虚拟机名字
+* 配置`nitro/libvmi.conf`, 配置要监控的虚拟机名字
 
 ```cfg
 win7x64 {
@@ -188,6 +190,38 @@ python3 setup.py build
 sudo python3 setup.py install
 ```
 
+### rekall
 
+由于作者作者脚本引用的是Python2版本的rekall，所以要使用pip/pip2安装。
+
+```shell
+sudo pip3 install --upgrade setuptools pip wheel
+sudo pip3 install rekall
+```
+
+安装完rekall之后一定先运行一下`rekall`,如果运行成功再运行nitro。
 
 其余的缺啥补啥。
+
+
+
+## TypeError
+
+```shell
+sudo python3 main.py win7x64
+```
+
+如果带上`--nobackend`一切正常，没有的话会出现问题
+
+```shell
+TypeError: NewZipFile() takes exactly 3 arguments (2 given)
+```
+
+[TypeError:XXX takes exactly 3 arguments (2 given)](https://github.com/google/rekall/issues/495)
+
+由于aff4升级出现的问题，rekall使用的`PyAFF4==0.26.post6`
+
+```shell
+pip install PyAFF4==0.26.post6
+```
+
