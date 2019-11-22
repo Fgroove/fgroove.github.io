@@ -1,7 +1,7 @@
 ---
 Javalayout: post
 title:   "nitro设计与实现"
-date:   2019-11-13 08:55:01 +0800
+date:   2019-11-19 08:55:01 +0800
 categories: "HWProject"
 tag: "nitro"
 
@@ -66,6 +66,6 @@ wait for userland to call get_event()
 
 ## CR3功能实现
 
-
+nitro维护了一个hashtable `CR3->Eprocess`，将目标程序加入该哈希表；然后再`nitro_x86.c:report_event()` 仅输出与目标程序匹配的系统调用。
 
 ## 
