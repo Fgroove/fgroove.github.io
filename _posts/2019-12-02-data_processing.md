@@ -40,7 +40,7 @@ with open('report.json') as f:
   data = json.load(f)
   
 with open('new_report.json', 'w') as f:
-  json.dump(data, f, index=2)
+  json.dump(data, f, indent=2)
 ```
 
 `sort_keys:` 是否按照字典顺序`a-z`输出，`True/False`；
@@ -63,7 +63,7 @@ for key in data['event']:
   name = key[name]
   
 with open('new_report.json', 'w') as f:
-  json.dump(data, f, index=2)
+  json.dump(data, f, indent=2)
 ```
 
 利用`字典不允许重复`的特性去重，
