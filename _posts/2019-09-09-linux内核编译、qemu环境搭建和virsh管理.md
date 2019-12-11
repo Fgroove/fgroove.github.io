@@ -65,7 +65,7 @@ $ sudo make install
 ## libvirt
 
 ```shell
-sudo apt install libvirt-bin libvirt-dev bridge-utils virt-manager virt-viewer
+sudo apt install libvirt-bin libvirt-dev bridge-utils
 ```
 
 
