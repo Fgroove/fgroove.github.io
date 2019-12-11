@@ -49,14 +49,14 @@ $ sudo make install
 * 安装依赖
 
 ```shell
-$ sudo apt-get install libpixman-1-dev pkg-config zlib1g-dev libglib2.0-dev dh-autoreconf libspice-server-dev
+$ sudo apt-get install libpixman-1-dev pkg-config zlib1g-dev libglib2.0-dev dh-autoreconf libspice-server-dev libsdl1.2-dev
 ```
 
 * 配置创建和安装QEMU
 
 ```shell
 $ cd qemu-2.6.0
-$ ./configure --target-list=x86_64-softmmu --enable-spice --prefix=/usr/local
+$ ./configure --target-list=x86_64-softmmu --enable-sdl --prefix=/usr/local
 $ make -j4
 $ sudo make install
 ```
