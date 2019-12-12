@@ -68,4 +68,3 @@ wait for userland to call get_event()
 
 nitro维护了一个hashtable `CR3->Eprocess`，将目标程序加入该哈希表；然后再`nitro_x86.c:report_event()` 仅输出与目标程序匹配的系统调用。
 
-##

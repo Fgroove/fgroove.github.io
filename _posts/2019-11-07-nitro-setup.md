@@ -145,7 +145,7 @@ pip3 install ioctl-opt==1.1
 * 依赖
 
 ```shell
-sudo apt install cmake flex bison libglib2.0-dev libvirt-dev libjson-c-dev libyajl-dev
+sudo apt install cmake flex bison libglib2.0-dev libvirt-dev libjson-c-dev libyajl-dev check
 ```
 
 * 编译安装
