@@ -194,7 +194,10 @@ sudo python3 setup.py install
 
 由于作者作者脚本引用的是Python2版本的rekall，所以要使用pip/pip2安装。
 
+`python 2.7`需要安装`libffi-dev`, 其余版本`2.x, 3.x` 已经默认安装`python-dev/python3-dev`。
+
 ```shell
+sudo apt install libffi-dev
 sudo pip3 install --upgrade setuptools pip wheel
 sudo pip3 install rekall
 ```
