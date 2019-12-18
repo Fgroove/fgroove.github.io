@@ -29,6 +29,10 @@ macOS的SIP(System Integrity Protection)机制，使得即使`sudo`也不能修�
 
 `Tools -> Build System -> Python` ,`CTRL + B`运行。
 
+### Ubuntu
+
+`Tools -> Build System -> Python` ,`CTRL + B`运行。
+
 ## 数据处理
 
 virus total报告`json`文件数据处理，
