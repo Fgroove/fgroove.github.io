@@ -22,6 +22,10 @@ tag: "malwareAnalysis"
 * **TIP：** `target ip packet`记录间接跳转或者函数调用的目标地址
 * **FUP：**`flow update packet` 
 
+## 问题
+
+PT不会记录直接跳转
+
 ## PT包
 
 ### MODE.EXEC
@@ -45,7 +49,7 @@ mode.exec cs.d 1
 | **LMA=0** **Legal Mode**   | Standard 16-bit Mode      | Standard 32-bit Mode      | Standard 16-bit Mode | Standard 32-bit Mode |
 | **LMA=1 Long Mode Active** | 16-bit Compatibility Mode | 32-bit Compatibility Mode | 64-bit Mode          | Reserved             |
 
-##MODE.TSX
+### MODE.TSX
 
 ```pt
 mode.tsx
