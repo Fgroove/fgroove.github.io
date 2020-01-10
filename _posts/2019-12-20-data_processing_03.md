@@ -18,7 +18,7 @@ tag: "malwareAnalysis"
 # Intel Processor Trace
 
 * **PSB：** `packet stream boundary`, 数据流边界`psb psbend`，同步到PT数据流的独特模式
-* **TNT：`**taken/not-taken packet `，1比特记录一个条件跳转
+* **TNT：**`taken/not-taken packet `，1比特记录一个条件跳转
 * **TIP：** `target ip packet`记录间接跳转或者函数调用的目标地址
 * **FUP：**`flow update packet` 
 
@@ -32,11 +32,11 @@ PT不会记录直接跳转
 
 表示执行模式，比如16位、32位和64位等。
 
-```intel pt
+```
 mode.exec cs.d 1
 ```
 
-长模式通过称为`LMA`（长模式有效）的控制位激活。 禁用LMA后，处理器将以标准x86模式运行，并且将与16位和32位操作系统和应用程序兼容，也就是说，它将与当今存在的所有内容兼容。 
+式通过称为`LMA`（长模式有效）的控制位激活。 禁用LMA后，处理器将以标准x86模式运行，并且将与16位和32位操作系统和应用程序兼容，也就是说，它将与当今存在的所有内容兼容。 
 
 激活LMA（长模式）后，将启用64位扩展，从而提供一个新的64位CPU。 长模式也分为两个子模式：
 
@@ -51,7 +51,7 @@ mode.exec cs.d 1
 
 ### MODE.TSX
 
-```pt
+```
 mode.tsx
 vmcs xxxxxxxxx
 ```
