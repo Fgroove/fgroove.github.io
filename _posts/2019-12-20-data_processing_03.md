@@ -17,6 +17,22 @@ tag: "malwareAnalysis"
 
 # Intel Processor Trace
 
+发现一个[宝藏文档](https://zhangtong16.github.io/2019/06/05/Intel-Processor-Trace/)
+
+### Packet Summary
+
+程序执行基本信息的数据包如下:
+
+- Packet Stream Boundary (PSB) packets: 心跳包, 每隔一定周期 (e.g., every 4K trace packet bytes) 自动生成. 可以作为数据包的边界来供 decoder 识别, decoder 解析的第一个包一定要是这个包.
+- Paging Information Packet (PIP): 记录 CR3 寄存器的修改情况. 通过结合操作系统中每个进程 CR3 的值, debugger 能够将线性地址和对应的进程 (源代码) 结合起来.
+- Time-Stamp Counter (TSC) packets: 记录时间.
+- Core Bus Ratio (CBR) packets: 包含 core:bus 的时钟频率比
+- Overflow (OVF) packets: 当处理器内部缓冲区溢出时设置, 可能其它的包被丢弃了, 解码器利用这个信息来同步正确的解码.
+
+## older
+
+
+
 * **PSB：** `packet stream boundary`, 数据流边界`psb psbend`，同步到PT数据流的独特模式
 * **TNT：**`taken/not-taken packet `，1比特记录一个条件跳转
 * **TIP：** `target ip packet`记录间接跳转或者函数调用的目标地址
