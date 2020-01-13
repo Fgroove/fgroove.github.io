@@ -30,3 +30,8 @@ tag: "malwareAnalysis"
 
 * 所有基本块中，未被标色的，使用preHead查看是否有系统调用
 
+
+
+### [1.获取call指令的目标地址](https://reverseengineering.stackexchange.com/questions/19607/idapython-get-call-destination-for-register-operand)
+
+[`idautils.CodeRefsFrom`](https://github.com/idapython/src/blob/master/python/idautils.py#L68)
