@@ -34,4 +34,6 @@ tag: "malwareAnalysis"
 
 ### [1.获取call指令的目标地址](https://reverseengineering.stackexchange.com/questions/19607/idapython-get-call-destination-for-register-operand)
 
-[`idautils.CodeRefsFrom`](https://github.com/idapython/src/blob/master/python/idautils.py#L68)
+[`idautils.CodeRefsFrom(ea, flow)`](https://github.com/idapython/src/blob/master/python/idautils.py#L68)
+
+获取`ea`地址的引用列表，flow是布尔值，代表true/false.
