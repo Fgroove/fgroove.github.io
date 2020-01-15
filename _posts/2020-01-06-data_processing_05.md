@@ -25,8 +25,7 @@ tag: "malwareAnalysis"
 ## 代码逻辑
 
 * fup/tip地址全部高亮
-* 高亮代码块里面call指令跳转代码块全部高亮
-* 基本块最后一行代码，succs()函数和tnt决定跳转
+* 高亮代码块里面call/jmp指令跳转代码块全部高亮
+* 基本块最后一行代码，CodeRefsFrom()函数和tnt决定跳转
 
 * 所有基本块中，未被标色的，使用preHead查看是否有系统调用
-
