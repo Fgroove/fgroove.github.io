@@ -19,11 +19,15 @@ tag: "malwareAnalysis"
 
 ## idaapi
 
-|      |      |      |
-| ---- | ---- | ---- |
-|      |      |      |
-|      |      |      |
-|      |      |      |
+* `askaddr`
+
+```python
+tgtEA = idaapi.askaddr(0, "Enter target address")
+if tgtEA is None:
+  exit
+```
+
+
 
 
 
