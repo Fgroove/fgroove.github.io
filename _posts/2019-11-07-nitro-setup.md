@@ -92,39 +92,6 @@ gvncviewer 127.0.0.1:0
 
 重点配置好xml文件就可以了。
 
-### 网络设置
-
-```shell
-sudo apt install bridge-utils -y
-```
-
-配置`/etc/network/interfaces`, `eno1`替换成网络接口
-
-```shell
-sudo vim /etc/network/interfaces
-
-auto lo eno1 br0
-iface lo inet loopback
-
-iface eno1 inet manual
-
-iface br0 inet dhcp #set this to static if required
-   bridge_ports eno1
-```
-
-`enp0s10`示意：
-
-```plain
-enp0s10:
-| | |
-v | |
-en| |   --> ethernet
-  v |
-  p0|   --> bus number (0)
-    v
-    s10 --> slot number (10)
-```
-
 
 
 ### 4. Ioctl-opt Python3
