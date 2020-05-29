@@ -106,10 +106,11 @@ s.solver.eval(s.memory.load(state.regs.ebp-0x16, 2),cast_to=bytes)
 
 ## 参考文献
 
-[1] angr. https://angr.io/
+[1] angr. [https://angr.io/](https://angr.io/)
 
-[2] angr API documentation. https://angr.io/api-doc/index.html
+[2] angr API documentation. [https://angr.io/api-doc/index.html](https://angr.io/api-doc/index.html)
 
-[3] Smashing Flare-On #2 with Concolic Testing. http://0x0atang.github.io/reversing/2015/09/17/flareon2-concolic.html
+[3] Smashing Flare-On #2 with Concolic Testing. [http://0x0atang.github.io/reversing/2015/09/17/flareon2-concolic.html](http://0x0atang.github.io/reversing/2015/09/17/flareon2-concolic.html)
 
-[4] angr文件与参数. http://ysc21.github.io/page/2/
+[4] angr文件与参数. [http://ysc21.github.io/page/2/](http://ysc21.github.io/page/2/)
+
