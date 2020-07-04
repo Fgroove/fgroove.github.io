@@ -3,7 +3,7 @@ layout: post
 title:  "AFL with Mac OSX"
 date:   2019-03-07 09:05:01 +0800
 categories: 基于动态的恶意软件分析
-tag: 反沙箱对抗技术
+tag: AFL
 
 ---
 * content

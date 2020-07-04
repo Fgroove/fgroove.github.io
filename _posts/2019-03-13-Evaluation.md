@@ -2,8 +2,8 @@
 layout: post
 title:  Evaluation
 date:   2019-03-13 14:55:01 +0800
-categories: "QEMU-KVM系统"
-tag: 系统评估
+categories: 基于动态的恶意软件分析
+tag: QEMU-KVM系统
 ---
 * content
 {:toc}
