@@ -2,8 +2,8 @@
 layout: post
 title:  "IPT for enhanced analysis"
 date:   2019-05-08 8:55:01 +0800
-categories: "双视图+IPT"
-tag: VMray
+categories: 基于动态的恶意软件分析
+tag: Intel PT
 ---
 * content
 {:toc}

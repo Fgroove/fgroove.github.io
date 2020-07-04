@@ -3,7 +3,7 @@ layout: post
 title:  "Automatically Identifying Trigger-based Behavior in Malware"
 date:   2019-04-10 9:55:01 +0800
 categories: 基于动态的恶意软件分析
-tag: 反沙箱对抗技术
+tag: 论文调研
 ---
 * content
 {:toc}

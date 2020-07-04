@@ -2,8 +2,8 @@
 layout: post
 title:  "IPT on Windows"
 date:   2019-05-07 9:55:01 +0800
-categories: "双视图+IPT"
-tag: 专利
+categories: 基于动态的恶意软件分析
+tag: Intel PT
 ---
 * content
 {:toc}
