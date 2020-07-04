@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "IPT for enhanced analysis"
-date:   2019-05-08 8:55:01 +0800
+date:   2019-05-09 8:55:01 +0800
 categories: 基于动态的恶意软件分析
 tag: Intel PT
 ---
