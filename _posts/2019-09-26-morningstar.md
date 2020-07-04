@@ -1,10 +1,9 @@
 ---
-Javalayout: post
+layout: post
 title:   "MorningStar"
 date:   2019-09-26 08:55:01 +0800
 categories: "Job-Hunting"
 tag: "interview"
-
 ---
 
 * content

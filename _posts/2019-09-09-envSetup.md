@@ -1,10 +1,9 @@
 ---
- Javalayout: post
+layout: post
 title:   "env setup"
 date:   2019-09-09 08:55:01 +0800
 categories: "Sandbox Evasion"
 tag: "linux-qemu"
-
 ---
 
 * content

@@ -1,5 +1,5 @@
 ---
- Javalayout: post
+layout: post
 title:   "nitro小总结"
 date:   2019-08-30 08:55:01 +0800
 categories: 基于动态的恶意软件分析
