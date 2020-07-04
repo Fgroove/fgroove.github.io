@@ -2,8 +2,8 @@
 Javalayout: post
 title:   "修改系统调用参数"
 date:   2019-12-02 08:55:01 +0800
-categories: "HWProject"
-tag: "malwareAnalysis"
+categories: 基于动态的恶意软件分析
+tag: nitro
 
 ---
 

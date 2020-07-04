@@ -2,7 +2,7 @@
 Javalayout: post
 title:   "nitro配置总结"
 date:   2019-11-07 14:55:01 +0800
-categories: "HWProject"
+categories: 基于动态的恶意软件分析
 tag: "nitro"
 
 ---
