@@ -1,10 +1,9 @@
 ---
-Javalayout: post
+layout: post
 title:   "数据处理-IDA"
 date:   2019-12-17 08:55:01 +0800
 categories: 基于动态的恶意软件分析
 tag: 数据处理
-
 ---
 
 * content
