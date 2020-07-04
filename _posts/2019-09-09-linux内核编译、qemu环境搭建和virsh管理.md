@@ -1,9 +1,9 @@
 ---
 layout: post
-title:   "env setup"
+title:   "linux环境setup"
 date:   2019-09-09 08:55:01 +0800
-categories: "Sandbox Evasion"
-tag: "linux-qemu"
+categories: 基于动态的恶意软件分析
+tag: 反沙箱对抗技术
 ---
 
 * content
