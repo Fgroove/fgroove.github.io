@@ -2,8 +2,8 @@
 layout: post
 title:   "Java Overview"
 date:   2019-06-17 8:55:01 +0800
-categories: "Job Hunting"
-tag: "leetcode"
+categories: "Job-Hunting"
+tag: "interview"
 
 ---
 * content

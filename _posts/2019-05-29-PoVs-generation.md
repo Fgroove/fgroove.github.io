@@ -1,9 +1,9 @@
 ---
 layout: post
 title:   "Using S2E to generate PoVs"
-date:   2019-05-29 09:55:01 +0800
-categories: 沙箱逃逸
-tag: S2E
+date:   2019-05-29 10:55:01 +0800
+categories: 基于动态的恶意软件分析
+tag: 符号执行
 
 ---
 * content

@@ -2,8 +2,8 @@
 layout: post
 title:   "Java Overview"
 date:   2019-07-10 18:55:01 +0800
-categories: "Job Hunting"
-tag: "Java"
+categories: "Job-Hunting"
+tag: interview
 
 ---
 

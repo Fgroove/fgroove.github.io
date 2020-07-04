@@ -2,8 +2,8 @@
 layout: post
 title:   "Syscall & API"
 date:   2019-07-02 09:55:01 +0800
-categories: "research proposal"
-tag: "技术思路"
+categories: 基于动态的恶意软件分析
+tag: 论文调研
 
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title:   "Automated Hybrid Analysis of Android Malware.pdfe"
 date:   2019-07-16 08:55:01 +0800
-categories: "research proposal"
-tag: "survey"
+categories: 基于动态的恶意软件分析
+tag: 论文调研
 
 ---
 

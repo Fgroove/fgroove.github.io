@@ -2,8 +2,8 @@
  Javalayout: post
 title:   "LU分解"
 date:   2019-08-28 16:55:01 +0800
-categories: "course"
-tag: "superprogramming"
+categories: "Job-Hunting"
+tag: "interview"
 
 ---
 

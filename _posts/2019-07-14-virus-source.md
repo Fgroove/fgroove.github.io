@@ -2,8 +2,8 @@
 layout: post
 title:   "Virus Source"
 date:   2019-07-14 08:55:01 +0800
-categories: "research proposal"
-tag: "virus"
+categories: 基于动态的恶意软件分析
+tag: 恶意样本
 
 ---
 

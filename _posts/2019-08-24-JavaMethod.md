@@ -2,8 +2,8 @@
  Javalayout: post
 title:   "Java Method"
 date:   2019-08-24 08:55:01 +0800
-categories: "Job Hunting"
-tag: "Java学习目标"
+categories: "Job-Hunting"
+tag: "interview"
 
 ---
 

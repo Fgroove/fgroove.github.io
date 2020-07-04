@@ -2,7 +2,7 @@
 layout: post
 title:   "sorting"
 date:   2019-08-17 08:55:01 +0800
-categories: "Job Hunting"
+categories: "Job-Hunting"
 tag: "algorithm"
 ---
 

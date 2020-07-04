@@ -2,7 +2,7 @@
 layout: post
 title:   "Selective Symbolic Execution"
 date:   2019-07-24 13:55:01 +0800
-categories: "path exploration"
+categories: 基于动态的恶意软件分析
 tag: "nitro"
 ---
 
