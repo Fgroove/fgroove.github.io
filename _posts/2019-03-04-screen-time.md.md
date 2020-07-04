@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "If today were the last day of my life"
-date:   2019-03-04 8:55:01 +0800
+date:   2019-03-04 08:55:01 +0800
 categories: 英语
 tag: 每日英语听力
 ---
