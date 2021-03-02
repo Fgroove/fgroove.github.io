@@ -23,3 +23,5 @@ github_username: Fgroove
 markdown: kramdown
 
 
+
+theme: jekyll-theme-leap-day
