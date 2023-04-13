@@ -23,16 +23,16 @@ tag: 盒子软件
 
 这里直接从模版 [**Chirpy Starter**](https://github.com/cotes2020/chirpy-starter)创建项目，按钮 **Use this template** > **Create a new repository**
 
-![image-20230414030355193](/Users/cai/Documents/GitHub/fgroove.github.io/styles/images/GitHub Pages/create-a-repository.png)
+![image-20230414030355193](https://raw.githubusercontent.com/Fgroove/fgroove.github.io/master/styles/images/GitHub%20Pages/create-a-repository.png)
 
 使用模版比较方便，可以直接上手写博客，
 
-![image-20230414031455246](/Users/cai/Documents/GitHub/fgroove.github.io/styles/images/GitHub Pages/pages-template.png)
+![image-20230414031455246](https://raw.githubusercontent.com/Fgroove/fgroove.github.io/master/styles/images/GitHub%20Pages/pages-template.png)
 
 #### 2 设置 Pages 属性
 
 项目 > Settings > Pages > Build and deployment > Source & Branch，然后就会生成网站
 
-![image-20230414031858923](/Users/cai/Documents/GitHub/fgroove.github.io/styles/images/GitHub Pages/pages-settings.png)
+![image-20230414031858923](https://raw.githubusercontent.com/Fgroove/fgroove.github.io/master/styles/images/GitHub%20Pages/pages-settings.png)
 
 **Custome Domain**：*Github绑定域名还是需要自己花钱买个域名的，还以为可以白嫖：）*
