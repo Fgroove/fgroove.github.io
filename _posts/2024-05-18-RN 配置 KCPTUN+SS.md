@@ -25,6 +25,9 @@ tag: Tools
 
 ## 配置SS+KCPTUN
 
+### 选用Linux系统
+就用 Ubuntu，习惯最重要！换用一次 Debian 要了老命了，经常断流，iptables 命令用不了，脚本执行有错误，折腾最后还是换回来了。
+
 ### SS
 1.连接上服务器后，下载并执行脚本 shadowsocks-all.sh
 ```shell
